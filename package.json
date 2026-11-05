@@ -7,7 +7,8 @@
     "test": "jest --runInBand",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "keywords": [],
   "author": "",
@@ -17,9 +18,10 @@
     "express": "^5.3.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.0.0",
-    "eslint": "^9.0.0",
-    "globals": "^15.0.0",
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^15.15.0",
     "jest": "^30.5.2",
     "prettier": "^3.0.0",
     "supertest": "^7.3.1"
